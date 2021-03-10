@@ -1,0 +1,49 @@
+html {
+	font-size: 13px;
+	font-family: 'RocknRoll One', sans-serif;
+	background-color: #c19d92;
+}
+p, li {
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+	color: #6697af;
+	width: 500px;	
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+	color: #b37e2b;
+	margin: 0;
+	padding: 20px 0;/* top and bottom 20px, 
+					left and right 0px;*/
+	
+}
+body {
+	width: 600px; /* fixed value to width */
+	margin: 0 auto; /*the first value affects the element's top and bottom side 
+					(setting it to 0 in this case); the second value affects the 
+					left and right side. (Here, 'auto' is a special value that divides 
+					the available horizontal space evenly between left and right).*/
+	background-color: black;
+	padding: 0 20px 20px 20px;
+	/* The padding above is the same of:
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-bottom: 20px
+	padding-left: 20px;
+	*/
+	border: 15px solid #b37e2b;
+}
+img {
+	display: block; /*changing the image's display 
+					element 'a' from 'inline' to 'block'.
+					It is not possible to apply margin 
+					or spacing values to inline elements.*/
+	margin: 0 auto;/* now it's possible to apply margin
+					and centralize it, the same we did
+					with the 'body*/
+	
+	
+}
